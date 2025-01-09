@@ -1,5 +1,3 @@
-# Quizie
-An app that can make exam-taking easy.
 
 
 - login 
@@ -21,6 +19,20 @@ An app that can make exam-taking easy.
 
 - [ ] Provide the same link to all.
 - [ ] provide a unique link for the candidate.
+- [ ] Send mail to the examinee and without that email they can give the exam
+
+# Student
+- profile 
+- stats 
+- results 
+
+
+
+# Quiz portal 
+- [ ] start  description 
+
+- [ ] provide same link to all.
+- [ ] provide unique link for candidate.
 
 - [ ] one question at a time.
 - [ ] paginate.
@@ -42,9 +54,22 @@ An app that can make exam-taking easy.
 - [ ] Problem Solving
 
 ## Tech Stack 
-- react 
-- node.js
-- database: mongo 
+- next js(Frontend application)
+- spring boot(Backend application)
+- database : mongo 
+
+
+## Features 
+- role base authentication & authorization
+    - Student  
+        - email
+        - password
+    - Teacher
+    - SSO
+
+- Dynamic enrollment form
+
+## figma 
 
 
 
